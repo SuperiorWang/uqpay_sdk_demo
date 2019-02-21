@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements Callback, Runnabl
                 if (tn.length() > 0) {
                     UQPaySDK.startPay(MainActivity.this, tn, mMode);
                 } else {
-                    Toast.makeText(mContext,"请输入TN值",3).show();
+                    Toast.makeText(mContext,"请输入TN值",Toast.LENGTH_LONG).show();
                 }
             }
         });
